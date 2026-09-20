@@ -1,0 +1,469 @@
+{
+  "moderators": [
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 1519280264201769030,
+      "tickets": 1,
+      "likes": 0,
+      "dislikes": 0,
+      "mutes": 0,
+      "kicks": 0,
+      "bans": 0,
+      "warns": 0,
+      "deleted_msgs": 5,
+      "registered_at": "2026-08-24T09:57:00.688798+00:00",
+      "strict_vigs": 0,
+      "oral_vigs": 0,
+      "swag_coins": 799
+    },
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 1511987013123969031,
+      "tickets": 1,
+      "likes": 0,
+      "dislikes": 0,
+      "mutes": 1,
+      "kicks": 0,
+      "bans": 0,
+      "warns": 18,
+      "deleted_msgs": 10,
+      "registered_at": "2026-08-24T09:57:00.688798+00:00",
+      "strict_vigs": 0,
+      "oral_vigs": 0,
+      "swag_coins": 40
+    },
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 1505995421124788335,
+      "tickets": 0,
+      "likes": 0,
+      "dislikes": 0,
+      "mutes": 2,
+      "kicks": 6,
+      "bans": 1,
+      "warns": 17,
+      "deleted_msgs": 8,
+      "registered_at": "2026-08-24T09:57:00.688798+00:00",
+      "strict_vigs": 0,
+      "oral_vigs": 0,
+      "swag_coins": 0
+    },
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 1275191798230286447,
+      "tickets": 0,
+      "likes": 0,
+      "dislikes": 0,
+      "mutes": 0,
+      "kicks": 0,
+      "bans": 0,
+      "warns": 1,
+      "deleted_msgs": 0,
+      "registered_at": "2026-08-24T09:57:00.688798+00:00",
+      "strict_vigs": 0,
+      "oral_vigs": 0,
+      "swag_coins": 0
+    },
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 1384475670520008785,
+      "tickets": 0,
+      "likes": 0,
+      "dislikes": 0,
+      "mutes": 0,
+      "kicks": 0,
+      "bans": 0,
+      "warns": 0,
+      "deleted_msgs": 0,
+      "registered_at": "2026-08-24T09:57:00.688798+00:00",
+      "strict_vigs": 0,
+      "oral_vigs": 0,
+      "swag_coins": 0
+    },
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 692406795880366100,
+      "tickets": 0,
+      "likes": 0,
+      "dislikes": 0,
+      "mutes": 0,
+      "kicks": 0,
+      "bans": 0,
+      "warns": 0,
+      "deleted_msgs": 0,
+      "registered_at": "2026-08-24T09:57:00.688798+00:00",
+      "strict_vigs": 0,
+      "oral_vigs": 0,
+      "swag_coins": 0
+    },
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 902100820202487839,
+      "tickets": 0,
+      "likes": 0,
+      "dislikes": 0,
+      "mutes": 0,
+      "kicks": 0,
+      "bans": 0,
+      "warns": 0,
+      "deleted_msgs": 15,
+      "registered_at": "2026-08-24T09:57:00.688798+00:00",
+      "strict_vigs": 0,
+      "oral_vigs": 0,
+      "swag_coins": 0
+    },
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 1447209642999550144,
+      "tickets": 1,
+      "likes": 12,
+      "dislikes": 0,
+      "mutes": 5,
+      "kicks": 0,
+      "bans": 0,
+      "warns": 0,
+      "deleted_msgs": 13,
+      "registered_at": "2026-08-24T09:57:28.772303+00:00",
+      "strict_vigs": 0,
+      "oral_vigs": 0,
+      "swag_coins": 100589
+    },
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 1226424162307014688,
+      "tickets": 0,
+      "likes": 0,
+      "dislikes": 0,
+      "mutes": 0,
+      "kicks": 0,
+      "bans": 0,
+      "warns": 0,
+      "deleted_msgs": 0,
+      "registered_at": "2026-08-24T18:36:38.857578+00:00",
+      "strict_vigs": 0,
+      "oral_vigs": 0,
+      "swag_coins": 0
+    },
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 1404779138044268575,
+      "tickets": 0,
+      "likes": 0,
+      "dislikes": 0,
+      "mutes": 2,
+      "kicks": 2,
+      "bans": 5,
+      "warns": 7,
+      "deleted_msgs": 22,
+      "registered_at": "2026-08-30T09:01:43.031795+00:00",
+      "strict_vigs": 0,
+      "oral_vigs": 0,
+      "swag_coins": 0
+    },
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 1221693774015762533,
+      "tickets": 0,
+      "likes": 0,
+      "dislikes": 0,
+      "mutes": 2,
+      "kicks": 2,
+      "bans": 1,
+      "warns": 0,
+      "deleted_msgs": 0,
+      "registered_at": "2026-08-30T09:05:08.708836+00:00",
+      "strict_vigs": 0,
+      "oral_vigs": 0,
+      "swag_coins": 75
+    },
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 1451621395510595604,
+      "tickets": 0,
+      "likes": 0,
+      "dislikes": 0,
+      "mutes": 0,
+      "kicks": 0,
+      "bans": 0,
+      "warns": 0,
+      "deleted_msgs": 1,
+      "registered_at": "2026-09-02T15:12:59.467275+00:00",
+      "strict_vigs": 0,
+      "oral_vigs": 0,
+      "swag_coins": 0
+    },
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 1236616002658373632,
+      "tickets": 0,
+      "likes": 0,
+      "dislikes": 0,
+      "mutes": 0,
+      "kicks": 0,
+      "bans": 1,
+      "warns": 2,
+      "deleted_msgs": 17,
+      "registered_at": "2026-09-04T19:29:20.777988+00:00",
+      "strict_vigs": 0,
+      "oral_vigs": 0,
+      "swag_coins": 0
+    },
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 932998593625862144,
+      "tickets": 1,
+      "likes": 0,
+      "dislikes": 0,
+      "mutes": 2,
+      "kicks": 2,
+      "bans": 3,
+      "warns": 12,
+      "deleted_msgs": 19,
+      "registered_at": "2026-09-08T17:40:43.288328+00:00",
+      "strict_vigs": 1,
+      "oral_vigs": 0,
+      "swag_coins": 40
+    },
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 1459687796309627123,
+      "tickets": 0,
+      "likes": 0,
+      "dislikes": 0,
+      "mutes": 0,
+      "kicks": 0,
+      "bans": 0,
+      "warns": 0,
+      "deleted_msgs": 0,
+      "registered_at": "2026-09-12T13:31:25.086638+00:00",
+      "strict_vigs": 0,
+      "oral_vigs": 0,
+      "swag_coins": 1
+    },
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 1198644396934037646,
+      "tickets": 0,
+      "likes": 0,
+      "dislikes": 0,
+      "mutes": 0,
+      "kicks": 6,
+      "bans": 0,
+      "warns": 17,
+      "deleted_msgs": 7,
+      "registered_at": "2026-09-12T19:35:48.631918+00:00",
+      "strict_vigs": 1,
+      "oral_vigs": 0,
+      "swag_coins": 135
+    },
+    {
+      "guild_id": 1070704320951095296,
+      "user_id": 1504114188979671171,
+      "tickets": 0,
+      "likes": 0,
+      "dislikes": 0,
+      "mutes": 0,
+      "kicks": 0,
+      "bans": 0,
+      "warns": 0,
+      "deleted_msgs": 10,
+      "registered_at": "2026-09-19T13:14:31.723191+00:00",
+      "strict_vigs": 0,
+      "oral_vigs": 0,
+      "swag_coins": 25
+    }
+  ],
+  "vigs": [
+    {
+      "id": 8,
+      "guild_id": 1070704320951095296,
+      "user_id": 932998593625862144,
+      "issuer_id": 1459687796309627123,
+      "type": "strict",
+      "reason": "Выдача роли раздела Личных Ролей.",
+      "created_at": "2026-09-12T08:33:55.694975+00:00"
+    },
+    {
+      "id": 10,
+      "guild_id": 1070704320951095296,
+      "user_id": 1198644396934037646,
+      "issuer_id": 1519280264201769030,
+      "type": "strict",
+      "reason": "нарушение правил сервера",
+      "created_at": "2026-09-15T12:39:45.792659+00:00"
+    }
+  ],
+  "coin_transfers": [
+    {
+      "id": 8,
+      "guild_id": 1070704320951095296,
+      "user_id": 1504114188979671171,
+      "amount": 25,
+      "issued_by": 1519280264201769030,
+      "created_at": "2026-09-20T18:35:18.561068+00:00"
+    },
+    {
+      "id": 7,
+      "guild_id": 1070704320951095296,
+      "user_id": 1198644396934037646,
+      "amount": 30,
+      "issued_by": 1519280264201769030,
+      "created_at": "2026-09-20T18:35:04.246165+00:00"
+    },
+    {
+      "id": 6,
+      "guild_id": 1070704320951095296,
+      "user_id": 1221693774015762533,
+      "amount": 35,
+      "issued_by": 1519280264201769030,
+      "created_at": "2026-09-20T18:33:46.078959+00:00"
+    },
+    {
+      "id": 5,
+      "guild_id": 1070704320951095296,
+      "user_id": 932998593625862144,
+      "amount": 40,
+      "issued_by": 1519280264201769030,
+      "created_at": "2026-09-20T18:33:26.523008+00:00"
+    },
+    {
+      "id": 4,
+      "guild_id": 1070704320951095296,
+      "user_id": 1511987013123969031,
+      "amount": 40,
+      "issued_by": 1519280264201769030,
+      "created_at": "2026-09-20T18:33:05.163475+00:00"
+    },
+    {
+      "id": 3,
+      "guild_id": 1070704320951095296,
+      "user_id": 1447209642999550144,
+      "amount": 99999,
+      "issued_by": 1447209642999550144,
+      "created_at": "2026-09-20T08:37:25.532376+00:00"
+    },
+    {
+      "id": 2,
+      "guild_id": 1070704320951095296,
+      "user_id": 1459687796309627123,
+      "amount": 1,
+      "issued_by": 1459687796309627123,
+      "created_at": "2026-09-14T09:07:27.088122+00:00"
+    },
+    {
+      "id": 1,
+      "guild_id": 1070704320951095296,
+      "user_id": 1447209642999550144,
+      "amount": 43,
+      "issued_by": 1447209642999550144,
+      "created_at": "2026-09-14T08:50:38.212127+00:00"
+    }
+  ],
+  "shop_purchases": [],
+  "guild_settings": {
+    "guild_id": 1070704320951095296,
+    "moderation_enabled": 1,
+    "ticket_system_enabled": 1,
+    "ticket_category_id": 1369415649830506616,
+    "closed_category_id": 1369415648400379904,
+    "ticket_counter": 5,
+    "command_role_map": {
+      "kick": [
+        1369357690131709992,
+        1369357661967224933,
+        1538965783311290469
+      ],
+      "mute": [
+        1369357716786778123
+      ],
+      "unmute": [
+        1369357716786778123
+      ],
+      "ban": [
+        1538965783311290469,
+        1369357661967224933
+      ],
+      "unban": [
+        1538965783311290469,
+        1369357661967224933
+      ],
+      "warn": [
+        1369357716786778123
+      ],
+      "clear": [
+        1369357716786778123
+      ],
+      "ticket_take": [
+        1369357716786778123
+      ],
+      "ticket take": [
+        1369357716786778123
+      ],
+      "ticket_close": [
+        1369357716786778123
+      ],
+      "ticket close": [
+        1369357716786778123
+      ],
+      "setstat_moder": [
+        1538965783311290469
+      ],
+      "setstat moder": [
+        1538965783311290469
+      ],
+      "register": [
+        1538965783311290469
+      ],
+      "unregister": [
+        1538965783311290469
+      ],
+      "pm": [
+        1369357661967224933,
+        1538965783311290469
+      ],
+      "history": [
+        1369357716786778123
+      ],
+      "forma": [
+        1369357690131709992,
+        1369357716786778123,
+        1369357661967224933,
+        1538965783311290469
+      ],
+      "active": [
+        1538965783311290469
+      ],
+      "notif": [
+        1537451548622332025
+      ],
+      "vig": [
+        1369357661967224933,
+        1538965783311290469
+      ],
+      "unvig": [
+        1369357661967224933,
+        1538965783311290469
+      ],
+      "me": [
+        1369357716786778123
+      ],
+      "stopn": [
+        1538965783311290469
+      ]
+    },
+    "log_channels_map": {
+      "roles": 1369358949668884540,
+      "server": 1369359006509830144,
+      "moderation": 1369358937970835588,
+      "tickets": 1369358965921812631,
+      "members": 1369358949668884540,
+      "messages": 1369358954869555232
+    },
+    "news_channel_id": null,
+    "honeypot_channel_id": null,
+    "honeypot_message_id": null,
+    "honeypot_count": 0,
+    "form_approve_roles": "[1538965783311290469]"
+  },
+  "saved_at": "2026-09-20T18:35:51.571830+00:00"
+}
