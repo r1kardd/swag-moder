@@ -1559,6 +1559,37 @@ class Database:
                         ct.get("issued_by"), ct.get("created_at")
                     ))
 
+                gs = data.get("guild_settings")
+                if isinstance(gs, dict):
+                    guild_id = gs.get("guild_id", 1070704320951095296)
+                    crm = gs.get("command_role_map", {})
+                    lcm = gs.get("log_channels_map", {})
+                    far = gs.get("form_approve_roles", "[]")
+
+                    crm_str = json.dumps(crm) if isinstance(crm, dict) else str(crm)
+                    lcm_str = json.dumps(lcm) if isinstance(lcm, dict) else str(lcm)
+                    far_str = json.dumps(far) if isinstance(far, (list, dict)) else str(far)
+
+                    await self._conn.execute("""
+                        INSERT OR REPLACE INTO guild_settings 
+                        (guild_id, moderation_enabled, ticket_system_enabled, ticket_category_id, closed_category_id, ticket_counter, command_role_map, log_channels_map, news_channel_id, honeypot_channel_id, honeypot_message_id, honeypot_count, form_approve_roles)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                    """, (
+                        guild_id,
+                        gs.get("moderation_enabled", 1),
+                        gs.get("ticket_system_enabled", 1),
+                        gs.get("ticket_category_id"),
+                        gs.get("closed_category_id"),
+                        gs.get("ticket_counter", 0),
+                        crm_str,
+                        lcm_str,
+                        gs.get("news_channel_id"),
+                        gs.get("honeypot_channel_id"),
+                        gs.get("honeypot_message_id"),
+                        gs.get("honeypot_count", 0),
+                        far_str
+                    ))
+
                 await self._conn.commit()
                 log.info("Авто-импорт %s выполнен успешно", json_path)
             except Exception as e:
