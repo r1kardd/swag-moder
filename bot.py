@@ -4007,6 +4007,48 @@ class ModerBot(commands.Bot):
         asyncio.create_task(ensure_role_request_form_message(self))
 
 
+        async def on_tree_error(interaction: discord.Interaction, error: app_commands.AppCommandError):
+            if isinstance(error, app_commands.TransformerError):
+                msg = f"❌ Не удалось найти участника `{error.value}`. Пожалуйста, выберите пользователя из выпадающего списка Discord."
+                try:
+                    if interaction.response.is_done():
+                        await interaction.followup.send(msg, ephemeral=True)
+                    else:
+                        await interaction.response.send_message(msg, ephemeral=True)
+                except Exception:
+                    pass
+            elif isinstance(error, app_commands.CommandOnCooldown):
+                msg = f"⏳ Подождите {error.retry_after:.1f} сек. перед повторным использованием этой команды."
+                try:
+                    if interaction.response.is_done():
+                        await interaction.followup.send(msg, ephemeral=True)
+                    else:
+                        await interaction.response.send_message(msg, ephemeral=True)
+                except Exception:
+                    pass
+            elif isinstance(error, app_commands.MissingPermissions):
+                msg = "❌ У вас недостаточно прав для выполнения этой команды."
+                try:
+                    if interaction.response.is_done():
+                        await interaction.followup.send(msg, ephemeral=True)
+                    else:
+                        await interaction.response.send_message(msg, ephemeral=True)
+                except Exception:
+                    pass
+            else:
+                cmd_name = interaction.command.name if interaction.command else "команда"
+                log.error("Ошибка слэш-команды /%s: %s", cmd_name, error)
+                try:
+                    msg = "❌ Произошла ошибка при выполнении команды."
+                    if interaction.response.is_done():
+                        await interaction.followup.send(msg, ephemeral=True)
+                    else:
+                        await interaction.response.send_message(msg, ephemeral=True)
+                except Exception:
+                    pass
+
+        self.tree.on_error = on_tree_error
+
         register_commands(self.tree)
 
         guild_id = 1070704320951095296
